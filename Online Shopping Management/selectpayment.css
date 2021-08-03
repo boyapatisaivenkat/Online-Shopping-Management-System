@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body{
+   background-image: url(images1/ecommerce-woman-shopping-online-2210x1473.jpg);
+   background-size: cover;
+
+}
+.wrapper{
+    
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    width: 850px;
+    height: 300px;
+    border-radius: 5px;
+}
+.wrapper h1{
+    margin-left: 25px;
+    color: #e85c4d;    
+}
+.wrapper .checkout_form{
+    width: 55%;  
+    border-radius: 6px;
+    padding: 50px 30px;
+
+}
+
+.btnn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btnn:hover{
+    background-color: white;
+    color: black;
+}
+a{
+    margin-left: 180px;
+    color: white;
+}

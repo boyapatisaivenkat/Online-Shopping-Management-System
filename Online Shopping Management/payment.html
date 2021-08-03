@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="payment.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Payment Check Form</title>
+</head>
+<body>
+    <form action="card.php" method="post">
+        <div class="wrapper">
+            <div class="checkout_form">
+                <div class="details">
+                    <div class="section">
+                        <h1><u>Card Payment</u></h1><br><br>
+                        <label class="label">Card Holder Name</label>
+                        <input type="text" name="cname" placeholder="Full Name" required>
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="section">
+                        <label class="label">Card Number</label>
+                        <input type="text" name="cnum" placeholder="Card Number" required>
+                    </div>
+                    <div class="section last_section">
+                        <div class="item">
+                            <label class="label">Expiry Date</label>
+                            <input type="text" name="exp" placeholder="00 / 00" required>
+                        </div>
+                        <div class="item">
+                            <label class="label">CVV</label>
+                            <input type="text" name="cvv" placeholder="000" required>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" name="reg" value="pay">
+                    </div>
+                </div>
+            </div>
+           
+    
+        </div>
+           
+    </form>
+    
+</body>
+</html>

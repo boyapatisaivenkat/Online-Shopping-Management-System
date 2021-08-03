@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body{
+   background: black;
+
+}
+.wrapper{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    height: 150px;
+    border-radius: 5px;
+}
+.label{
+    color: black;
+    display: block;
+    margin-bottom: 6px;
+}
+.wrapper h1{
+    margin-left: 40px;
+    color: black;
+
+    
+    
+}
+.wrapper .checkout_form{
+    width: 55%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 50px 30px;
+
+}
+.wrapper .checkout_form p{
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.wrapper .checkout_form .section{
+    margin-bottom: 15px;
+}
+.wrapper .checkout_form .section input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #dddddd;
+}
+.wrapper .checkout_form .section input[type="text"]:focus{
+    border-color: #e85c4d;
+}
+.wrapper .checkout_form .section.last_section{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .checkout_form .btn input{
+    text-decoration: none;
+    background: #e85c4d;
+    padding: 10px;
+    border-radius: 25px;
+    text-align:center;
+    width: 300px;
+    margin-top: 20px;
+    color: black;
+    border-color: #e85c4d;
+    letter-spacing: 5px;
+    display: block;
+}
+.section input{
+    text-align: center;
+}
+.details .section .fa{
+    position: absolute;
+    bottom: -26px;
+    left: 40px;
+    font-size: 20px;
+    color: black;
+}

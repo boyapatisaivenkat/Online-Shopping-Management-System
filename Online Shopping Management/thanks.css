@@ -1,0 +1,35 @@
+
+body{
+    background-image: url(images1/thankyou.jpg);
+    background-size: cover ;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #008575;
+    margin-top: 330px;
+    
+}
+h1,h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 28px;
+}
+.button{
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #6a9c93;
+    color: #000;
+}
